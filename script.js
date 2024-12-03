@@ -2,13 +2,13 @@
 const movies = [
     {
         id: 1,
-        title: "Movie 1",
+        title: "Stree 2",
         releaseDate: "2024-05-01",
-        poster: "movie1.jpg",
-        description: "An action-packed thriller.",
-        genre: "action",
+        poster: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fa%2Fa1%2FStree_2.jpg&tbnid=OTHYnbqhee8j4M&vet=1&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStree_2&docid=KeaI1LQGwTrVDM&w=283&h=354&source=sh%2Fx%2Fim%2Fm5%2F2&kgs=3f601c687bd28939&shem=abme%2Ctrie",
+        description: "A hilarious sequel to the 2018 hit, Stree 2 continues the spooky fun with Rajkummar Rao and Shraddha Kapoor reprising their roles.",
+        genre: "horrer, comedy",
         reviews: [],
-        downloadLink: "https://download-link.com/movie1"
+        downloadLink: "https://driveleech.org/file/VLl5nAYS9ctfghnr1ym2"
     },
     {
         id: 2,
