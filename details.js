@@ -35,4 +35,25 @@ function addReview(movieId) {
     loadMovieDetails();
 }
 
+// Fetch selected movie data from localStorage
+const selectedMovie = JSON.parse(localStorage.getItem('selectedMovie'));
+
+// Populate the details page
+if (selectedMovie) {
+    document.getElementById('movie-poster').src = selectedMovie.poster;
+    document.getElementById('movie-title').textContent = selectedMovie.title;
+    document.getElementById('movie-description').textContent = selectedMovie.description;
+    document.getElementById('release-date').textContent = selectedMovie.releaseDate;
+    document.getElementById('movie-genre').textContent = selectedMovie.genre;
+
+    // Set download links
+    document.getElementById('download-480p').href = selectedMovie.downloadLinks['480p'];
+    document.getElementById('download-720p').href = selectedMovie.downloadLinks['720p'];
+    document.getElementById('download-1080p').href = selectedMovie.downloadLinks['1080p'];
+} else {
+    document.body.innerHTML = "<h1>Error: Movie data not found!</h1>";
+}
+
+
+
 window.onload = loadMovieDetails;

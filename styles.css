@@ -3,19 +3,19 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #facfcf;
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #000000ee;
+    color: #ff0a0a;
     padding: 10px 20px;
     text-align: center;
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background: #fdfdfd;
+    color: #969595;
     text-align: center;
     padding: 10px 20px;
     position: relative;
@@ -31,14 +31,14 @@ footer {
 }
 
 .movie-item {
-    background: #fff;
-    border: 1px solid #ddd;
+    background: #fae8e8;
+    border: 1px solid #f5f5f5;
     border-radius: 5px;
     margin: 10px;
     padding: 10px;
     text-align: center;
     width: 250px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgb(1, 245, 82);
 }
 
 .movie-item img {
@@ -52,12 +52,9 @@ footer {
     margin-top: 10px;
     text-decoration: none;
     color: #fff;
-    background: #007BFF;
+    background: #007bff;
     padding: 10px 15px;
     border-radius: 5px;
     transition: background 0.3s;
 }
 
-.movie-item a:hover {
-    background: #0056b3;
-}

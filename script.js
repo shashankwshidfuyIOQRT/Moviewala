@@ -8,8 +8,17 @@ const movies = [
         description: "Stree 2: Sarkate Ka Aatank is a 2024 movie about a headless ghost named Sarkata who targets women in the town of Chanderi.",
         genre: "action",
         reviews: [],
-        downloadLink: "https://en.mrproblogger.com/PFmn"
+        downloadLinks: {
+            "480p": "https://en.mrproblogger.com/PFmn",
+            "720p": "https://en.mrproblogger.com/PFmn",
+            "1080p": "https://en.mrproblogger.com/PFmn"
+        } ,
+        addedDate: "2024-11-30" // Older date
+        
     },
+   
+   
+   
     {
         id: 2,
         title: "Singham Again",
@@ -18,95 +27,21 @@ const movies = [
         description: "A heartwarming comedy.",
         genre: "comedy",
         reviews: [],
-        downloadLink: "hhttps://en.mrproblogger.com/P9jJqmX"
+        downloadLink: "hhttps://en.mrproblogger.com/P9jJqmX",
+        addedDate: "2024-11-30" // Older date
     },
     
+      
     
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     // Add more movies
 ];
 
-const itemsPerPage = 5; // Number of movies per page
+
+
+
+
+    const itemsPerPage = 5; // Number of movies per page
 let currentPage = 1;
 
 // Load Movies
@@ -169,6 +104,7 @@ function goToDetails(movieId) {
     localStorage.setItem("selectedMovie", JSON.stringify(movies.find(movie => movie.id === movieId)));
     window.location.href = "details.html";
 }
+
 
 // Load initial movies
 window.onload = () => loadMovies();

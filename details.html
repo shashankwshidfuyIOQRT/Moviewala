@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Detailed information about the selected movie.">
-    <meta name="keywords" content="movie details, download movies, watch movies">
-    <meta name="author" content="Your Name">
     <title>Movie Details</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="details.css">
 </head>
 <body>
-    <header>
-        <h1 id="movie-title">Movie Details</h1>
-    </header>
-    <main>
-        <div class="movie-details" id="movie-details">
-            <!-- Movie details will be loaded dynamically here -->
+    <div class="movie-details">
+        <div class="poster">
+            <img id="movie-poster" src="" alt="Movie Poster">
         </div>
-    </main>
-    <footer>
-        <p>Copyright © 2024 Movie Website</p>
-    </footer>
+        <div class="info">
+            <h1 id="movie-title"></h1>
+            <p id="movie-description"></p>
+            <p><strong>Release Date:</strong> <span id="release-date"></span></p>
+            <p><strong>Genre:</strong> <span id="movie-genre"></span></p>
+            <div class="download-links">
+                <h3>Download Links</h3>
+                <a id="download-480p" href="#" target="_blank">480p</a>
+                <a id="download-720p" href="#" target="_blank">720p</a>
+                <a id="download-1080p" href="#" target="_blank">1080p</a>
+            </div>
+        </div>
+    </div>
+
     <script src="details.js"></script>
 </body>
 </html>
