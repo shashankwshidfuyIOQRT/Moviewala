@@ -4,7 +4,7 @@ const movies = [
         id: 1,
         title: "Stree 2",
         releaseDate: "2024-06-15",
-        poster: "movie2.jpg",
+        poster: "Stree_2.jpg",
         description: "A heartwarming comedy.",
         genre: "comedy",
         reviews: [],
