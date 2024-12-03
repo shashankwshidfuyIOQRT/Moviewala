@@ -3,85 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Hub</title>
-    <link rel="stylesheet" href="hello.css">
-    <script src="myscript.js"></script>
-
-
-    
+    <meta name="description" content="Explore the latest movies with genres, reviews, and download links.">
+    <meta name="keywords" content="movies, reviews, download, genres, pagination">
+    <meta name="author" content="Your Name">
+    <title>Dynamic Movie List</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="hero-content">
-            <h1>Welcome to Movie Hub</h1>
-            <p>Your destination for the latest and greatest in cinema.</p>
-            <a href="#movies" class="cta-button">Explore Movies</a>
+    <header>
+        <h1>Movie Collection</h1>
+        <div class="controls">
+            <input type="text" id="search-bar" placeholder="Search movies..." onkeyup="searchMovies()">
+            <select id="genre-filter" onchange="filterByGenre()">
+                <option value="all">All Genres</option>
+                <option value="action">Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+                <!-- Add more genres as needed -->
+            </select>
         </div>
     </header>
-
-    <!-- Movies Section -->
-    <main id="movies">
-        <h2>Now Showing</h2>
-        <div class="movie-grid">
-            <div class="movie-card">
-                <img src="https://in.bmscdn.com/events/moviecard/ET00386190.jpg" alt="Movie 1">
-                <h3>Baby John</h3>
-                <p>A brief description of Movie 1.</p>
-            </div>
-            <div class="movie-card">
-                <img src="https://d3lzcn6mbbadaf.cloudfront.net/media/details/ANI-20240805091736.jpg" alt="Movie 2">
-                <h3>Pushpa 2</h3>
-                <p>A brief description of Movie 2.</p>
-            </div>
-            <div class="movie-card">
-                <img src="https://upload.wikimedia.org/wikipedia/en/7/73/Moana_2_poster.jpg" alt="Movie 3">
-                <h3>Moana 2</h3>
-                <p>A brief description of Movie 3.</p>
-            </div>
-            <div class="movie-card">
-                <img src="https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2024/08/12/202408123204509.jpg?quality=80&zoom=1&ssl=1" alt="Movie 4">
-                <h3>Devara</h3>
-         <p>A brief description of Movie 4.</p>
-
-<div class="movie-card">
-                <img src="https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2024/08/12/202408123204509.jpg?quality=80&zoom=1&ssl=1" alt="Movie 4">
-                <h3>Devara</h3>
-                <p>A brief description of Movie 4.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
-            </div>
+    <main>
+        <div class="movie-list" id="movie-list">
+            <!-- Movies will be loaded dynamically here -->
+        </div>
+        <div class="pagination" id="pagination">
+            <!-- Pagination buttons will be generated dynamically -->
         </div>
     </main>
-
-    <!-- Footer -->
     <footer>
-        <p>© 2024 Movie Hub. All Rights Reserved.</p>
-        <p>Follow us on 
-            <a href="#">Facebook</a>, 
-            <a href="#">Twitter</a>, and 
-            <a href="#">Instagram</a>.
-        </p>
+        <p>Copyright © 2024 Movie Website</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
