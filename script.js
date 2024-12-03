@@ -11,40 +11,12 @@ const movies = [
         downloadLink: "https://driveleech.org/file/VLl5nAYS9ctfghnr1ym2"
     },
 
-     {
-        id: 2,
-        title: "Movie 2",
-        releaseDate: "2024-06-15",
-        poster: "movie2.jpg",
-        description: "A heartwarming comedy.",
-        genre: "comedy",
-        reviews: [],
-        downloadLink: "https://download-link.com/movie2"
-    },
+  
 
 
- {
-        id: 3,
-        title: "Movie 2",
-        releaseDate: "2024-06-15",
-        poster: "movie2.jpg",
-        description: "A heartwarming comedy.",
-        genre: "comedy",
-        reviews: [],
-        downloadLink: "https://download-link.com/movie2"
-    },
 
 
- {
-        id: 4,
-        title: "Movie 2",
-        releaseDate: "2024-06-15",
-        poster: "movie2.jpg",
-        description: "A heartwarming comedy.",
-        genre: "comedy",
-        reviews: [],
-        downloadLink: "https://download-link.com/movie2"
-    },
+
 
 
 
