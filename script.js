@@ -1,7 +1,7 @@
 // Movie Data
 const movies = [
     {
-        id: 2,
+        id: 1,
         title: "Stree 2",
         releaseDate: "2024-06-15",
         poster: "movie2.jpg",
@@ -24,7 +24,7 @@ const movies = [
 
 
  {
-        id: 2,
+        id: 3,
         title: "Movie 2",
         releaseDate: "2024-06-15",
         poster: "movie2.jpg",
@@ -36,7 +36,7 @@ const movies = [
 
 
  {
-        id: 2,
+        id: 4,
         title: "Movie 2",
         releaseDate: "2024-06-15",
         poster: "movie2.jpg",
