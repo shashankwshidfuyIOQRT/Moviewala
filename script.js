@@ -20,6 +20,73 @@ const movies = [
         reviews: [],
         downloadLink: "https://download-link.com/movie2"
     },
+
+     {
+        id: 2,
+        title: "Movie 2",
+        releaseDate: "2024-06-15",
+        poster: "movie2.jpg",
+        description: "A heartwarming comedy.",
+        genre: "comedy",
+        reviews: [],
+        downloadLink: "https://download-link.com/movie2"
+    },
+
+
+ {
+        id: 2,
+        title: "Movie 2",
+        releaseDate: "2024-06-15",
+        poster: "movie2.jpg",
+        description: "A heartwarming comedy.",
+        genre: "comedy",
+        reviews: [],
+        downloadLink: "https://download-link.com/movie2"
+    },
+
+
+ {
+        id: 2,
+        title: "Movie 2",
+        releaseDate: "2024-06-15",
+        poster: "movie2.jpg",
+        description: "A heartwarming comedy.",
+        genre: "comedy",
+        reviews: [],
+        downloadLink: "https://download-link.com/movie2"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     // Add more movies
 ];
 
