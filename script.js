@@ -3,7 +3,7 @@ const movies = [
     {
         id: 1,
         title: "Stree 2",
-        releaseDate: "2024-05-01",
+        releaseDate: "2024-08-31",
         poster: "images/movie1.jpg",
         description: "Stree 2: Sarkate Ka Aatank is a 2024 movie about a headless ghost named Sarkata who targets women in the town of Chanderi.",
         genre: "action",
@@ -12,13 +12,13 @@ const movies = [
     },
     {
         id: 2,
-        title: "Movie 2",
-        releaseDate: "2024-06-15",
-        poster: "movie2.jpg",
+        title: "Singham Again",
+        releaseDate: "2024-11-01",
+        poster: "images/movie2.jpg",
         description: "A heartwarming comedy.",
         genre: "comedy",
         reviews: [],
-        downloadLink: "https://download-link.com/movie2"
+        downloadLink: "hhttps://en.mrproblogger.com/P9jJqmX"
     },
     
     
@@ -102,7 +102,7 @@ const movies = [
 
 
 
-    
+
     // Add more movies
 ];
 
