@@ -1,23 +1,14 @@
 // Movie Data
 const movies = [
     {
-        id: 1,
-        title: "Stree 2",
-        releaseDate: "2024-06-01",
-        poster: "movie2.jpg",
-        genre: "comedy",
-        reviews: [],
-        downloadLink: "https://driveleech.org/file/VLl5nAYS9ctfghnr1ym2"
-    },
-    {
         id: 2,
-        title: "Movie 2",
+        title: "Stree 2",
         releaseDate: "2024-06-15",
         poster: "movie2.jpg",
         description: "A heartwarming comedy.",
         genre: "comedy",
         reviews: [],
-        downloadLink: "https://download-link.com/movie2"
+        downloadLink: "https://driveleech.org/file/VLl5nAYS9ctfghnr1ym2"
     },
 
      {
