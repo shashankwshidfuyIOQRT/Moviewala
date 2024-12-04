@@ -6,7 +6,7 @@ const movies = [
         releaseDate: "2024-08-31",
         poster: "images/movie1.jpg",
         description: "Stree 2: Sarkate Ka Aatank is a 2024 movie about a headless ghost named Sarkata who targets women in the town of Chanderi.",
-        genre: "action",
+        genre: "horrer",
         reviews: [],
         downloadLinks: {
             "480p": "https://en.mrproblogger.com/PFmn",
@@ -25,14 +25,48 @@ const movies = [
         releaseDate: "2024-11-01",
         poster: "images/movie2.jpg",
         description: "A heartwarming comedy.",
-        genre: "comedy",
+        genre: "action",
         reviews: [],
-        downloadLink: "hhttps://en.mrproblogger.com/P9jJqmX",
+        downloadLinks: {
+        "480p": "https://shrinkme.ink/P9jJqmX",
+            "720p": "https://shrinkme.ink/Hv9bgCX",
+            "1080p": "https://shrinkme.ink/9rODN"
+        },
         addedDate: "2024-11-30" // Older date
     },
     
-      
+    {
+        id: 3,
+        title: " The grave of the fireflies",
+        releaseDate: "16 April 1988",
+        poster: "images/image3.jpg",
+        description: "A heartwarming Story.",
+        genre: "drama",
+        reviews: [],
+        downloadLinks: {
+        "480p": "https://shrinkme.ink/WzZo",
+            "720p": "https://shrinkme.ink/QVpGR4u",
+            "1080p": "https://shrinkme.ink/h8Vgfd"
+        },
+        addedDate: "2024-11-30" // Older date
+    },
     
+
+    {
+        id: 4,
+        title: " Bhool Bhulaiyaa 3",
+        releaseDate: "May 25, 2024",
+        poster: "images/image4.jpg",
+        description: "The third installment in the popular horror-comedy franchise, Bhool Bhulaiyaa 3 features Kartik Aaryan in a lead role.",
+        genre: "horrer",
+        reviews: [],
+        downloadLinks: {
+        "480p": "https://shrinkme.ink/HGD3O5bn",
+            "720p": "https://shrinkme.ink/or8J5A",
+            "1080p": "https://shrinkme.ink/9rODN"
+        },
+        addedDate: "2024-11-30" // Older date
+    },
 
     // Add more movies
 ];

@@ -8,6 +8,7 @@ body {
 
 .movie-details {
     display: flex;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
     margin: 20px auto;
     padding: 20px;
     max-width: 800px;
@@ -17,11 +18,13 @@ body {
 }
 
 .poster img {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     border-radius: 8px;
 }
 
 .info {
+    flex: 1; /* Allow the details section to expand */
     margin-left: 20px;
 }
 
@@ -38,14 +41,42 @@ body {
 .download-links a {
     display: inline-block;
     margin-right: 10px;
+    margin-bottom: 10px; /* Space between buttons */
     padding: 10px 15px;
     background-color: #007BFF;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    font-size: 16px;
 }
 
 .download-links a:hover {
     background-color: #0056b3;
+}
+
+/* MEDIA QUERY: For mobile screens */
+@media (max-width: 600px) {
+    .movie-details {
+        flex-direction: column; /* Stack poster and details vertically */
+        padding: 15px;
+    }
+
+    .poster img {
+        max-width: 100%; /* Full width for mobile */
+        margin-bottom: 20px; /* Add space below poster */
+    }
+
+    .info {
+        margin-left: 0; /* Remove side margin */
+    }
+
+    .info h1 {
+        font-size: 24px; /* Slightly smaller heading for mobile */
+    }
+
+    .download-links a {
+        font-size: 14px; /* Adjust button size */
+        padding: 8px 12px;
+    }
 }
