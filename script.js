@@ -44,9 +44,9 @@ const movies = [
         genre: "drama",
         reviews: [],
         downloadLinks: {
-        "480p": "https://shrinkme.ink/WzZo",
-            "720p": "https://shrinkme.ink/QVpGR4u",
-            "1080p": "https://shrinkme.ink/h8Vgfd"
+        "480p": "https://driveseed.org/file/S1KXbWzT2cwz6MRr5qxs",
+            "720p": "https://driveseed.org/file/UVicPJWx428CF3lq4UO6",
+            "1080p": "https://driveseed.org/file/KOFrQ4yX4zEC0nMbuEux"
         },
         addedDate: "2024-11-30" // Older date
     },
