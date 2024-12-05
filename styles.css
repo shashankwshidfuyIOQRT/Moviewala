@@ -5,7 +5,7 @@ body {
     padding: 0;
     background-color: #f8d4d4; /* Light Pink Background */
     color: #333;
-    line-height: 1.6;
+    
 }
 
 /* Header */
@@ -171,6 +171,20 @@ footer:hover {
         max-width: 300px; /* Limit the width */
     }
 }
+
+
+
+* {
+    box-sizing: border-box; /* Ensure padding doesn't add to width */
+}
+
+main {
+    width: 100%;
+    margin: 0 auto; /* Center align the content */
+    background-color: inherit; /* Same as body background */
+}
+
+
 
 /* Tablet and Larger Screens (Optional) */
 @media (min-width: 769px) {

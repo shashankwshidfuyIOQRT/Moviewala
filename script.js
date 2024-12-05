@@ -68,6 +68,23 @@ const movies = [
         addedDate: "2024-11-30" // Older date
     },
 
+    {
+        id: 5,
+        title: " Pushpa 2",
+        releaseDate: "5 Dec 2024",
+        poster: "images/image5.jpg",
+        description: "The third installment in the popular horror-comedy franchise, Bhool Bhulaiyaa 3 features Kartik Aaryan in a lead role.",
+        genre: "action",
+        reviews: [],
+        downloadLinks: {
+        "480p": "https://shrinkme.ink/HGD3O5bn",
+            "720p": "https://shrinkme.ink/or8J5A",
+            "1080p": "https://shrinkme.ink/9rODN"
+        },
+        addedDate: "2024-12-05" // Older date
+    },
+
+
     // Add more movies
 ];
 
