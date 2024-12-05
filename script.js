@@ -9,9 +9,9 @@ const movies = [
         genre: "horrer",
         reviews: [],
         downloadLinks: {
-            "480p": "https://en.mrproblogger.com/PFmn",
-            "720p": "https://en.mrproblogger.com/PFmn",
-            "1080p": "https://en.mrproblogger.com/PFmn"
+            "480p": "https://driveleech.org/file/HPzOCWWs2xzjPKlKozGR",
+            "720p": "https://driveleech.org/file/CekzFzb5vCnqse6sTEXS",
+            "1080p": "https://driveleech.org/file/thNeYkiaJzRGoOnRG0VM"
         } ,
         addedDate: "2024-11-30" // Older date
         
@@ -28,9 +28,9 @@ const movies = [
         genre: "action",
         reviews: [],
         downloadLinks: {
-        "480p": "https://shrinkme.ink/P9jJqmX",
-            "720p": "https://shrinkme.ink/Hv9bgCX",
-            "1080p": "https://shrinkme.ink/9rODN"
+        "480p": "https://driveleech.org/file/sIgcdFh3NebhEzRuFA5p",
+            "720p": "https://driveleech.org/file/5YfSgS0eOX4aVWTSysP1",
+            "1080p": "https://driveleech.org/file/Rh5r4B0buGgqPA89c8bB"
         },
         addedDate: "2024-11-30" // Older date
     },
@@ -61,9 +61,9 @@ const movies = [
         genre: "horrer",
         reviews: [],
         downloadLinks: {
-        "480p": "https://shrinkme.ink/HGD3O5bn",
-            "720p": "https://shrinkme.ink/or8J5A",
-            "1080p": "https://shrinkme.ink/9rODN"
+        "480p": "https://driveleech.org/file/E0Y47ODjNbA7k4cnNyBp",
+            "720p": "https://driveleech.org/file/UwE9v3r0CM5k3Rt5r2jm",
+            "1080p": "https://driveleech.org/file/Rh5r4B0buGgqPA89c8bB"
         },
         addedDate: "2024-11-30" // Older date
     },
@@ -77,9 +77,9 @@ const movies = [
         genre: "action",
         reviews: [],
         downloadLinks: {
-        "480p": "https://desilinks.org/links/43695",
-            "720p": "https://desilinks.org/links/43697",
-            "1080p": "https://desilinks.org/links/43693"
+        "480p": "https://driveleech.org/file/Ydm8gnH0OG",
+            "720p": "https://driveleech.org/file/72xEa31HBU",
+            "1080p": "https://driveleech.org/file/smOMd0LtZo"
         },
         addedDate: "2024-12-05" // Older date
     },
