@@ -73,7 +73,7 @@ const movies = [
         title: " Pushpa 2",
         releaseDate: "5 Dec 2024",
         poster: "images/image5.jpg",
-        description: "The third installment in the popular horror-comedy franchise, Bhool Bhulaiyaa 3 features Kartik Aaryan in a lead role.",
+        description: "Pushpa maderchod hai bhosdiwala  behanchod cinema haal mai jake koi mat dekhna yahan se dekho bas",
         genre: "action",
         reviews: [],
         downloadLinks: {
