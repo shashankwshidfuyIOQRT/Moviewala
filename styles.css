@@ -157,7 +157,7 @@ footer:hover {
 
     .movie-item {
         width: 100%; /* Full width for each movie item on small screens */
-        max-width: 350px; /* Limit the max width */
+        max-width: 310px; /* Limit the max width */
     }
 
     /* Search and Genre Controls */

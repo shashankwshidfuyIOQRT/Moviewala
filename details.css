@@ -11,15 +11,16 @@ body {
     flex-wrap: wrap; /* Allows wrapping for smaller screens */
     margin: 20px auto;
     padding: 20px;
-    max-width: 800px;
+    max-width: 900px;
     background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    box-shadow: 9px 4px 8px rgba(255, 10, 10, 0.1);
 }
 
 .poster img {
-    width: 100%;
-    max-width: 300px;
+    width: 200%;
+    max-width: 200px;
+    margin: 0%;
     border-radius: 8px;
 }
 
@@ -64,7 +65,7 @@ body {
 
     .poster img {
         max-width: 100%; /* Full width for mobile */
-        margin-bottom: 20px; /* Add space below poster */
+        margin-bottom: 160px; /* Add space below poster */
     }
 
     .info {
