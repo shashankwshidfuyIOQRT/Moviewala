@@ -77,9 +77,9 @@ const movies = [
         genre: "action",
         reviews: [],
         downloadLinks: {
-        "480p": "https://driveleech.org/file/Ydm8gnH0OG",
+        "1080p": "https://driveleech.org/file/Ydm8gnH0OG",
             "720p": "https://driveleech.org/file/72xEa31HBU",
-            "1080p": "https://driveleech.org/file/smOMd0LtZo"
+            "480p": "https://driveleech.org/file/smOMd0LtZo"
         },
         addedDate: "2024-12-05" // Older date
     },
