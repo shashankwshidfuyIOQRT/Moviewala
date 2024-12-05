@@ -77,9 +77,9 @@ const movies = [
         genre: "action",
         reviews: [],
         downloadLinks: {
-        "480p": "https://shrinkme.ink/HGD3O5bn",
-            "720p": "https://shrinkme.ink/or8J5A",
-            "1080p": "https://shrinkme.ink/9rODN"
+        "480p": "https://desilinks.org/links/43695",
+            "720p": "https://desilinks.org/links/43697",
+            "1080p": "https://desilinks.org/links/43693"
         },
         addedDate: "2024-12-05" // Older date
     },
