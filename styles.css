@@ -156,7 +156,7 @@ footer:hover {
     }
 
     .movie-item {
-        width: 100%; /* Full width for each movie item on small screens */
+        width: 80%; /* Full width for each movie item on small screens */
         max-width: 310px; /* Limit the max width */
     }
 
@@ -167,7 +167,7 @@ footer:hover {
     }
 
     #search-bar, #genre-filter {
-        width: 90%; /* Make the search bar and genre filter wider on mobile */
+        width: 100%; /* Make the search bar and genre filter wider on mobile */
         max-width: 300px; /* Limit the width */
     }
 }
